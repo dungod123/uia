@@ -1,0 +1,13 @@
+package com.suka.blyat;
+
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+class CalculatorTest {
+    @Test
+    void testAdd() {
+        Calculator calc = new Calculator();
+        assertEquals(10, calc.add(2, 3), "2 + 3 phải bằng 5 nha Senpai! (｡♥‿♥｡)");
+    }
+}
