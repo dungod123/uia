@@ -8,6 +8,6 @@ class CalculatorTest {
     @Test
     void testAdd() {
         Calculator calc = new Calculator();
-        assertEquals(10, calc.add(2, 3), "2 + 3 phải bằng 5 nha Senpai! (｡♥‿♥｡)");
+        assertEquals(5, calc.add(2, 3), "2 + 3 phải bằng 5 nha Senpai! (｡♥‿♥｡)");
     }
 }
