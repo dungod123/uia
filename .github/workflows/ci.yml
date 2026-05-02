@@ -20,7 +20,7 @@ jobs:
       with:
         java-version: '17'
         distribution: 'temurin'
-        #cache: maven
+        cache: maven
 
     - name: Chạy Test và Package với Maven 🚀
       # Lệnh này sẽ chạy qua tất cả các pha: compile, test, và đóng gói thành file .jar
